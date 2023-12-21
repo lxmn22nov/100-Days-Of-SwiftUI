@@ -1,0 +1,12 @@
+- How to create variables and constants?
+	- Why does Swift have variables?
+	- Why does Swift have constants as well as variables?
+
+- How to create strings?
+	- Why does Swift need multi-line strings?
+
+- How to store whole numbers?
+	
+- How to store decimal numbers?
+	- Why does Swift need both Doubles and Integers?
+	- Why is Swift a type-safe language?
