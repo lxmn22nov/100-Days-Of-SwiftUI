@@ -118,3 +118,17 @@ print(footballers)
 print(footballers.contains("Christiano Ronaldo"))
 print(footballers.count)
 print(footballers.sorted())
+
+// ENUMERATION(ENUM):
+// vintage way of writing enums.
+enum weekday {
+    case Monday
+    case Tuesday
+    case Wednesday
+    case Thusday
+    case Friday
+}
+// But, with swift we can declare it in a single case.
+enum Weekday {
+    case Monday, Tuesday, Wednesday, Thusday, Friday
+}
