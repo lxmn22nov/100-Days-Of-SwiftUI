@@ -43,3 +43,11 @@ print("5 - 5 = \(5 - 5)")
 print("5 * 5 = \(5 * 5)")
 print("5 / 5 = \(5 / 5)")
 print("5 % 5 = \(5 % 5)")
+
+// CHECKPOINT-01
+// Convert temperatures from Celsius to Fahreheit.
+
+let tempCelsius: Double = 37
+let tempFahrenheit: Double = (((tempCelsius * 9) / 5) + 32)
+// degree: option+shift+8
+print("Temperature in Celsius is \(tempCelsius)°C \nTemperature in Fahrenheit is \(tempFahrenheit)°F")
