@@ -96,3 +96,25 @@ print(height["Lebron James", default: 0])
 print(height.count)
 print(height.keys)
 print(height.values)
+
+// SETS: can't add duplicate items and don't store data elements in a particular order.
+
+let atheletes = Set(["Husain Bolt", "Lebron James", "Virat Kohli", "Tiger Woods", "Cristiano Ronaldo"])
+print(atheletes)                    // different order everytime.
+
+// when data elements are to be add individually.
+var footballers = Set<String>()
+print(footballers)
+
+footballers.insert("Christiano Ronaldo")
+footballers.insert("Gerath Bale")
+footballers.insert("Jude Bellingham")
+footballers.insert("Toni Kroos")
+footballers.insert("Ramos")
+footballers.insert("Pepe")
+print(footballers)
+
+// Some of the methods.
+print(footballers.contains("Christiano Ronaldo"))
+print(footballers.count)
+print(footballers.sorted())

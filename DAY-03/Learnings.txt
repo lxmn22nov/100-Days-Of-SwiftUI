@@ -12,6 +12,7 @@ Understanding the differences between them, especially the use.
 		* default value, let us provide a backup value to use for when the key you ask for doesn’t exist.
 - How to use sets for fast data lookup?
 	- Why are sets different from arrays in Swift?
-
+		* sets are unordered and cannot contain duplicates, whereas arrays retain their order and can contain duplicates.
+		* sets don’t need to store your objects in the order you add them, they can instead store them in a seemingly random order that optimizes them for fast retrieval.
 - How to create and use enums?
 	- Why does Swift need enums?
