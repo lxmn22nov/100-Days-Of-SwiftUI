@@ -108,4 +108,53 @@ if transport == .aeroplane || transport == .helicopter {
 }
 
 // SWITCH CASE:
+// Swift requires that its switch statements are exhaustive.
+// Weather forecast from an enum we could choose which msg to print based on a series of conditions.
 
+enum Weather {
+    case sun, rain, wind, snow, unknown
+}
+let forecast = Weather.rain
+
+if forecast == .sun {
+    print("Nice Day.")
+} else if forecast == .rain {
+    print("Get your Umbrella.")
+} else if forecast == .wind {
+    print("Wear something warm.")
+} else if forecast == .snow {
+    print("School is cancelled.")
+} else {
+    print("Our weather forecast generator is broken.")
+}
+
+switch forecast {
+case.sun:
+    print("Nice Day.")
+case.rain :
+    print("Get your Umbrella.")
+case.wind:
+    print("Wear something warm.")
+case.snow:
+    print("School is cancelled.")
+case.unknown:
+    print("Our weather forecast generator is broken.")
+}
+
+// Ternary Conditional Operator: lets us check a condition and return one of two values: something if the condition is true and something if it’s false.
+
+var age1 =  18
+var canVote = age1 >= 18 ? "Yes" : "No"
+print(canVote)
+
+let avengers = ["Thor", "IronMan", "BlackPanther", "AntMan"]
+let crewCount = avengers.isEmpty ? "No One." : "\(avengers.count) avengers."
+print(crewCount)
+
+enum Theme {
+    case light, dark
+}
+
+let theme = Theme.dark
+let background = theme == .dark ? "black" : "white"
+print(background)
