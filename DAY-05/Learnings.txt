@@ -1,0 +1,12 @@
+- How to check a condition is true or false?
+	* Conditional Statements.
+	- How does Swift let us compare many types of data?
+- How to check multiple conditions?
+	- What’s the difference between if and else if?
+	- How to check multiple conditions?
+	* By AND(&&), OR(||) logical operators.
+- How to use switch statements to check multiple conditions?
+	- When should you use switch statements rather than if?
+
+- How to use the ternary conditional operator for quick tests?
+	- When should you use the ternary operator in Swift?
