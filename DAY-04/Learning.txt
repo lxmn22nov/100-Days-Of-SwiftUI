@@ -1,0 +1,5 @@
+- How to use type annotations
+	- Why does Swift have type annotations?
+	- Why would you want to create an empty collection?
+- Checkpoint 2
+	- Create an array of strings, then write code that prints the number of items in the array and also the number of unique items in the array.
