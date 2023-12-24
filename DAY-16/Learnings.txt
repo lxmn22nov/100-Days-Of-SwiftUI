@@ -1,0 +1,11 @@
+- WeSplit: Introduction
+- Understanding the basic structure of a SwiftUI app.
+- Creating a form.
+	* Scrolling lists of static controls like text and Images.
+	* Also include User Interactive controls like text fields, toggle switches, buttons and more.
+	* "Section" split our form into visual chunks, just like the settings app does.
+- Adding a navigation bar.
+	* 
+Modifying program state.
+Binding state to user interface controls.
+Creating views in a loop.
