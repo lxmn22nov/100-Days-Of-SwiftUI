@@ -1,0 +1,18 @@
+- How to use a for loop to repeat work?
+	* for loop.
+	* ranges in for loop.
+	* two range operators(x...y) and (x..<y).
+	* underscores with loops.
+
+	- Why does Swift use underscores with loops?
+	- Why does Swift have two range operators?
+
+- How to use a while loop to repeat work?
+	- When should you use a while loop?
+
+- How to skip loop items with break and continue?
+	- Why would you want to exit a loop?
+	- Why does Swift have labeled statements?
+	- When to use break and when to use continue?
+
+- Checkpoint 3
