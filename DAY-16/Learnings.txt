@@ -5,7 +5,9 @@
 	* Also include User Interactive controls like text fields, toggle switches, buttons and more.
 	* "Section" split our form into visual chunks, just like the settings app does.
 - Adding a navigation bar.
+	* NavigationStack method.
+	* .navigationBarTitleDisplayMode(...) modifier.
+- Modifying program state.
 	* 
-Modifying program state.
 Binding state to user interface controls.
 Creating views in a loop.
