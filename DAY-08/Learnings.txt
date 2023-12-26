@@ -1,0 +1,8 @@
+- How to provide default values for parameters
+	- When to use default parameters for functions
+
+- How to handle errors in functions
+	- When should you write throwing functions?
+	- Why does Swift make us use try before every throwing function?
+
+- Checkpoint 4
