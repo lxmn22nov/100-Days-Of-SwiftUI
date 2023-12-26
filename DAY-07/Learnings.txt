@@ -1,0 +1,14 @@
+- How to reuse code with functions.
+	- What code should be put in a function?
+	* "Function Composition" provided by swift to build new functions out of existing functions.
+	- How many parameters should a function accept?
+	* a function could take 0 or take 20 of them and more, according to the need.
+
+- How to return values from functions.
+	- When is the return keyword not needed in a Swift function?
+
+- How to return multiple values from functions.
+	- When should you use an array, a set, or a tuple in Swift?
+	* Remember: Arrays keep the order and can have duplicates, Sets are unordered and can’t have duplicates, and Tuples have a fixed number of values of fixed types inside them.
+- How to customize parameter labels.
+	- When should you omit a parameter label?
