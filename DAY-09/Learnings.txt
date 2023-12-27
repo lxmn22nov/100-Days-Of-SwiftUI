@@ -1,0 +1,13 @@
+- How to create and use closures
+	- What the heck are closures and why does Swift love them so much?
+	- Why are Swift’s closure parameters inside the braces?
+	- How do you return a value from a closure that takes no parameters?
+
+- How to use trailing closures and shorthand syntax
+	- Why does Swift have trailing closure syntax?
+	- When should you use shorthand parameter names?
+
+- How to accept functions as parameters
+	- Why would you want to use closures as parameters?
+
+- Checkpoint 5
