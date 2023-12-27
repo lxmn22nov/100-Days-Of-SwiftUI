@@ -1,6 +1,8 @@
 - How to create and use closures
 	- What the heck are closures and why does Swift love them so much?
+	* Closures let us wrap up some functionality in a single variable, then store that somewhere. We can also return it from a function, and store the closure somewhere else.
 	- Why are Swift’s closure parameters inside the braces?
+	* Closures take their parameters inside the brace to avoid confusing Swift: if we had written let payment = (user: String, amount: Int) then it would look like we were trying to create a tuple, not a closure, which would be strange.
 	- How do you return a value from a closure that takes no parameters?
 
 - How to use trailing closures and shorthand syntax

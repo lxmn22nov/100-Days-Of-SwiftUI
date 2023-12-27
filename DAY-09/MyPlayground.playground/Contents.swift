@@ -74,3 +74,22 @@ let leaderTeam1 = team.sorted(by: { (name1: String, name2: String) -> Bool in
 print(leaderTeam1)
 
 // We’re calling the sorted() function as before. Rather than passing in a function, we’re passing a closure – everything from the opening brace after by: down to the closing brace on the last line is part of the closure. Directly inside the closure we list the two parameters sorted() will pass us, which are two strings. We also say that our closure will return a Boolean, then mark the start of the closure’s code by using in. Everything else is just normal function code.
+
+// How do your return a value from a closure that takes no parameters?
+// closure with one parameter and returns nothing.
+let payment = { (user: String) in
+    print("Paying \(user)...")
+}
+
+// closure with one parameter and returns boolean.
+let payment1 = { (user: String) -> Bool in
+    print("Paying \(user)...")
+    return true
+}
+
+// closure without parameter and returning boolean.
+let payment2 = { () -> Bool in
+    print("Paying an anonymous person...")
+    return true
+}
+// NOTE: If we think about it, that works just the same as a standard function where’d write func payment() -> Bool.
