@@ -143,3 +143,29 @@ print(lowerCaseTeam)
 // When you create a button, SwiftUI will ask you to provide one function to execute when the button is pressed, and another to generate the contents of the button – a picture, or some text, and so on.
 // Even just putting stacking pieces of text vertically is done using a closure.
 
+// How to accept functions as parameters?
+
+func makeArray(size: Int, using generator: () -> Int) -> [Int] {
+    var numbers = [Int]()
+    
+    for _ in 0..<size {
+        let newNumber = generator()
+        numbers.append(newNumber)
+    }
+    return numbers
+}
+
+// CHECKPOINT-05:
+/*
+ Your job is to:
+ - Filter out any numbers that are even.
+ - Sort the array in ascending order.
+ - Map them to strings in the format “7 is a lucky number”.
+ - Print the resulting array, one item per line.
+ */
+let luckyNumbers = [7, 4, 38, 21, 16, 15, 12, 33, 31, 49]
+
+let sortedLuckyNumbers = luckyNumbers.sorted()
+print("Lucky number in ascending order: ",sortedLuckyNumbers)
+let filteredEvenNumbers = luckyNumbers.filter { $0.isMultiple(of: 2)}
+print("Even numbers from Lucky numbers: ",filteredEvenNumbers)
