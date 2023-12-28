@@ -93,3 +93,53 @@ let payment2 = { () -> Bool in
     return true
 }
 // NOTE: If we think about it, that works just the same as a standard function where’d write func payment() -> Bool.
+
+//  How to use trailing closures and shorthand syntax?
+
+// Rather than passing the closure in as a parameter, we just go ahead and start the closure directly – and in doing so remove (by: from the start, and a closing parenthesis at the end. Hopefully you can now see why the parameter list and in come inside the closure, because if they were outside it would look even weirder!
+
+// Trailing closure syntax:
+let team1 = ["Himanshu", "Ashish", "Laxman", "Ayush"]
+let captainFirstTeam = team1.sorted { name1, name2 in
+    if name1 == "Laxman" {
+        return true
+    } else if name2 == "Laxman" {
+        return false
+    }
+    return name1 < name2
+}
+print(captainFirstTeam)
+
+// There’s one last way Swift can make closures less cluttered: Swift can automatically provide parameter names for us, using shorthand syntax. With this syntax we don’t even write name1, name2 in any more, and instead rely on specially named values that Swift provides for us: $0 and $1, for the first and second strings respectively.
+
+let captainFirstTeam1 = team1.sorted {
+    if $0 == "Ashish" {
+        return true
+    } else if $1 == "Ashish" {
+        return false
+    }
+    return $0 < $1
+}
+print(captainFirstTeam1)
+
+// Two more examples, power of closures.
+
+// filter() function lets us run some code on every item in the array and will send back a new array containing every item that returns true for the function. Lets say team players whose name befins with "A" like this:
+let aOnly = team1.filter { $0.hasPrefix("A")}
+print(aOnly)
+
+// map() function lets us transform every item in the array using some code of our choosing and sends back a new array of all the transformed items.
+let upperCaseTeam = team1.map { $0.uppercased() }
+let lowerCaseTeam = team1.map { $0.lowercased() }
+
+print(upperCaseTeam)
+print(lowerCaseTeam)
+
+// NOTE: When working with map(), the type we return doesn't have to be the same as the type you started with - you could convert an array of integers to an array of strings.
+
+// Like I said, you’re going to be using closures a lot with SwiftUI:
+
+// When you create a list of data on the screen, SwiftUI will ask you to provide a function that accepts one item from the list and converts it something it can display on-screen.
+// When you create a button, SwiftUI will ask you to provide one function to execute when the button is pressed, and another to generate the contents of the button – a picture, or some text, and so on.
+// Even just putting stacking pieces of text vertically is done using a closure.
+
