@@ -1,0 +1,15 @@
+- How to create your own structs?
+	- What’s the difference between a struct and a tuple?
+	- What’s the difference between a function and a method?
+	- Why do we need to mark some methods as mutating?
+
+- How to compute property values dynamically?
+	- When should you use a computed property or a stored property?
+
+- How to take action when a property changes?
+	- When should you use property observers?
+	- When should you use willSet rather than didSet?
+
+- How to create custom initializers?
+	- How do Swift’s memberwise initializers work?
+	- When would you use self in a method?
