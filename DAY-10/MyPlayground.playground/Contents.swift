@@ -59,3 +59,17 @@ emp2.takeVacation(days: 14)
 - When we create a constatnt or variable out of a struct, we call that an instance -you might create a dozen unique instances of the above created struct "Album".
 - Swift silently creates a special function inside the struct called "init()", using all the properties of the struct as its parameters.
 */
+
+// How to compute property values dynamically?
+/*
+ Structs have two kind of property:
+ 1. STORED PROPERTY: A variable/constant that holds a piece of data inside an instance of the struct.
+ 2. COMPUTED PROPERTY: Calculates the value of the property dynamically every time it's accessed. It means computed properties are a blend of both stored properties and functions, they are accessed like stored properties, but work like functions.
+ */
+
+// How to take action when a property changes?
+/* Swift lets us create property observers, which are special piece of code that run when properties change.
+ - There are two forms:
+ - 1. "didSet" observer to run when the property just changed.
+ - 2. "willSet" observer to run before the property changed.
+*/
