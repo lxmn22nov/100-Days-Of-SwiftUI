@@ -1,0 +1,17 @@
+- How to create your own classes?
+	- Why does Swift have both classes and structs?
+	- Why don’t Swift classes have a memberwise initializer?
+
+- How to make one class inherit from another?
+	- When would you want to override a method?
+	- Which classes should be declared as final?
+- How to add initializers for classes?
+
+- How to copy classes?
+	- Why do copies of a class share their data?
+
+- How to create a deinitializer for a class?
+	- Why do classes have deinitializers and structs don’t?
+
+- How to work with variables inside classes?
+	- Why can variable properties in constant classes be changed?
