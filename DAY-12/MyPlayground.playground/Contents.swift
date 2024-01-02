@@ -107,4 +107,93 @@ class user {
 // Now we can safely call copy() to get an object with the same starting data, but any future changes won’t impact the original.
 
 // How to create a deinitializer for a class?
-    // 
+
+class User2 {
+    let id: Int
+
+    init(id: Int) {
+        self.id = id
+        print("User \(id): I'm alive!")
+    }
+    deinit {
+        print("User \(id): I'm dead!")
+    }
+}
+
+// How to work with variables inside classes?
+    // Swift's classes work a bit like signposts, every copy of a class instance points to the same piece of data.
+class Person {
+    var name = "Julia"
+}
+//let Person = Person()
+//Person.name = "Robert"
+//print(Person.name)
+// We created a constant "Person" instance, but then changes it, we can't change the constant value.
+
+class Person1 {
+    var name1 = "Evans"
+}
+var person = Person1()
+person.name1 = "CaptainAmerica"
+person = Person1()
+print(person.name1)
+
+// NOTE: One upside to all this is that classes don’t need to use the mutating keyword with methods that change their data. This keyword is really important for structs because constant structs cannot have their properties changed no matter how they were created, so when Swift sees us calling a mutating method on a constant struct instance it knows that shouldn’t be allowed.
+
+// CHECKPOINT-07
+/*
+ Make a class hierarchy for animals, starting with Animal at the top, then Dog and Cat as subclasses, then Corgi and Poodle as subclasses of Dog and Persian and Lion as subclasses of Cat.
+
+ But there’s more:
+ - The Animal class should have a legs integer property that tracks how many legs the animal has.
+ - The Dog class should have a speak() method that prints a generic dog barking string, but each of the subclasses should print something slightly different.
+ - The Cat class should have a matching speak() method, again with each subclass printing something different.
+ - The Cat class should have an isTame Boolean property, provided using an initializer.
+ */
+class Animal {
+    let legs: Int
+    
+    init(legs: Int) {
+        self.legs = legs
+    }
+    func speak() {
+        print("Animal speaks!")
+    }
+}
+class Dog: Animal {
+    override func speak() {
+        print("Dogs barks!")
+    }
+}
+class Cat: Animal {
+    override func speak() {
+        print("Cats do meow!")
+    }
+}
+class Corgi: Dog {
+    override func speak() {
+        print("Corgi barks in his voice!")
+    }
+}
+class Poodle: Dog {
+    override func speak() {
+        print("Poodle barks in his voice!")
+    }
+}
+class Persian: Cat {
+    var isTame: Bool
+    
+    init(isTame: Bool, legs: Int) {
+        self.isTame = isTame
+        super.init(legs: legs)
+    }
+    
+    override func speak() {
+        print("Persian cat meow in his voice!")
+    }
+}
+class Lion: Cat {
+    override func speak() {
+        print("Lion cat meow in his voice.")
+    }
+}
