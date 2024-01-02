@@ -1,0 +1,10 @@
+- How to create and use protocols?
+	- Why does Swift need protocols?
+
+- How to use opaque return types?
+
+- How to create and use extensions?
+	- When should you use extensions in Swift?
+
+- How to create and use protocol extensions?
+	- When are protocol extensions useful in Swift?
