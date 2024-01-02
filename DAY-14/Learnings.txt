@@ -1,0 +1,15 @@
+- How to handle missing data with optionals?
+	- Why does Swift have optionals?
+	- Why does Swift make us unwrap optionals?
+
+- How to unwrap optionals with guard?
+	- When to use guard let rather than if let?
+
+- How to unwrap optionals with nil coalescing
+	- When should you use nil coalescing in Swift?
+
+- How to handle multiple optionals using optional chaining
+	- Why is optional chaining so important?
+
+- How to handle function failure with optionals?
+	- When should you use optional try?
