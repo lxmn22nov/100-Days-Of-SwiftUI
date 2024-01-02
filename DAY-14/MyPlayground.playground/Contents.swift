@@ -1,4 +1,4 @@
-// OPTIONALS: are like a box that may/maynot have something inside it.
+// OPTIONALS: are like a box that may/L  have something inside it.
 // How to handle missing data with optionals.
 let opposites = [
     "Mario": "Wario",
@@ -80,6 +80,29 @@ let captains = [
 //let new = captains["Serenity"] ?? "N/A"
 let new = captains["Serenity", default: "N/A"]
 
-// OPTIONAL CHAINING:
+// OPTIONAL CHAINING: access members of an optional value without unwrapping.
 
 // How to handle multiple optionals using optional chaining?
+struct Book {
+    let little: String
+    let author: String?
+}
+var book: Book? = nil
+let author = book?.author?.first?.uppercased() ?? "A"
+print(author)
+
+// Why is optional chaining so important?
+    // Swift’s optional chaining lets us dig through several layers of optionals in a single line of code, and if any one of those layers is nil then the whole line becomes nil.
+let names = ["Vincent": "van Gogh", "Pablo": "Picasso", "Claude": "Monet"]
+let surnameLetter = names["Vincent"]?.first?.uppercased() ?? "?"
+
+// How to handle fucntion failure with optionals?
+
+enum UserError: Error {
+    case badId, networkFailed
+}
+func getUser(id: Int) throws -> String {
+    throw UserError.networkFailed
+}
+let user = (try? getUser(id: 33)) ?? "Anonymous"
+print(user)
