@@ -8,52 +8,62 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var meters: Double = 0.0
-    @State private var kilometers: Double = 0.0
-    @State private var conversionInputMethod: String = "m"
-    @State private var conversionOutputMethod: String = "m"
+    @State private var inputNumber: Double?
+    @State private var inputUnits: UnitLength = .meters
+    @State private var outputUnits: UnitLength = .feet
+    @FocusState private var inputNumberIsFocused: Bool
     
-    let conversionMethods = ["m","km","feet","yard","miles"]
+    var outputNumber: Double? {
+        guard let inputNumber = inputNumber else { return nil }
+        let inputMeasurement = Measurement(value: inputNumber, unit: inputUnits)
+        
+        return inputMeasurement.converted(to: outputUnits).value
+    }
     
-    var meterToKilometer: Double {
-        let km = (meters / 1000)
-        return km
-    }
-    var meterToFeet: Double {
-        let feet = (meters * 3.28084)
-        return feet
-    }
-    var meterToYard: Double {
-        let yard = (meters *  1.0936)
-        return yard
-    }
-    var meterToMiles: Double {
-        let miles = (meters * 0.00062137)
-        return miles
-    }
+    let units: [UnitLength] = [.meters, .kilometers, .feet, .yards, .miles]
+    
     var body: some View {
         NavigationStack {
             Form {
-                Section("INPUT") {
-                    TextField("Length in m", value: $meters, format: .number)
-                    Picker("Type", selection: $conversionInputMethod) {
-                        ForEach(conversionMethods, id: \.self) {
-                            Text($0)
+                // First Section -> INPUT NUMBER
+                Section {
+                    TextField("Enter a number", value: $inputNumber, format: .number)
+                        .keyboardType(.decimalPad)
+                        .focused($inputNumberIsFocused)
+                }
+                // Second Section -> INPUT UNIT
+                Section("INPUT UNITS") {
+                    Picker("Input Units", selection: $inputUnits) {
+                        ForEach(units, id: \.self) {
+                            Text("\($0.symbol)")
                         }
                     }
                     .pickerStyle(.segmented)
                 }
-                Section("OUTPUT") {
-                    Picker("Type", selection: $conversionOutputMethod) {
-                        ForEach(conversionMethods, id: \.self) {
-                            Text($0)
+                // Third Section -> OUTPUT UNIT
+                Section("OUTPUT UNITS") {
+                    Picker("Output Units", selection: $outputUnits) {
+                        ForEach(units, id: \.self) {
+                            Text("\($0.symbol)")
                         }
                     }
                     .pickerStyle(.segmented)
-//                    Text(, format: .number)
+                }
+                // Fourth Section -> Result
+                Section("Result") {
+                    Text(outputNumber?.formatted() ?? "")
                 }
             }
             .navigationTitle("Length Conversion")
+            .toolbar {
+                ToolbarItemGroup(placement: .keyboard) {
+                    Spacer()
+                    
+                    Button("Done") {
+                        inputNumberIsFocused = false
+                    }
+                }
+            }
         }
     }
 }
