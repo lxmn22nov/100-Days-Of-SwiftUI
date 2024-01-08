@@ -1,0 +1,11 @@
+1. Guess the Flag: Introduction.
+
+2. Using stacks to arrange views.
+
+3. Colors and frames.
+
+4. Gradients.
+
+5. Buttons and images.
+
+6.Showing alert messages.
