@@ -1,0 +1,7 @@
+1. Stacking up buttons.
+
+2. Showing the player’s score with an alert.
+
+3. Styling our flags.
+
+4. Upgrading our design.
