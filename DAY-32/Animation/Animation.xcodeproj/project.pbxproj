@@ -11,6 +11,8 @@
 		5FAE22CA2B5D528D00E17502 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAE22C92B5D528D00E17502 /* ContentView.swift */; };
 		5FAE22CC2B5D528F00E17502 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FAE22CB2B5D528F00E17502 /* Assets.xcassets */; };
 		5FAE22CF2B5D528F00E17502 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FAE22CE2B5D528F00E17502 /* Preview Assets.xcassets */; };
+		5FAE22D62B5DBC1600E17502 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAE22D52B5DBC1600E17502 /* AnimationView.swift */; };
+		5FAE22D82B5DBEF800E17502 /* ExplicitAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAE22D72B5DBEF800E17502 /* ExplicitAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		5FAE22C92B5D528D00E17502 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5FAE22CB2B5D528F00E17502 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FAE22CE2B5D528F00E17502 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5FAE22D52B5DBC1600E17502 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		5FAE22D72B5DBEF800E17502 /* ExplicitAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				5FAE22C72B5D528D00E17502 /* AnimationApp.swift */,
+				5FAE22D52B5DBC1600E17502 /* AnimationView.swift */,
+				5FAE22D72B5DBEF800E17502 /* ExplicitAnimationView.swift */,
 				5FAE22C92B5D528D00E17502 /* ContentView.swift */,
 				5FAE22CB2B5D528F00E17502 /* Assets.xcassets */,
 				5FAE22CD2B5D528F00E17502 /* Preview Content */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FAE22D62B5DBC1600E17502 /* AnimationView.swift in Sources */,
 				5FAE22CA2B5D528D00E17502 /* ContentView.swift in Sources */,
 				5FAE22C82B5D528D00E17502 /* AnimationApp.swift in Sources */,
+				5FAE22D82B5DBEF800E17502 /* ExplicitAnimationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
