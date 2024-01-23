@@ -7,9 +7,29 @@
 
 import SwiftUI
 
+// Showing and hiding views with transitions.
+
 struct ContenteView3: View {
+    
+    @State private var isShowingRed = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Button("Tap Me.") {
+                // code
+                withAnimation {
+                    isShowingRed.toggle()
+                }
+            }
+            
+            if isShowingRed {
+                Rectangle()
+                    .fill(.blue)
+                    .frame(width: 200, height: 200)
+//                    .transition(.scale)
+                    .transition(.asymmetric(insertion: .scale, removal: .scale))
+            }
+        }
     }
 }
 
