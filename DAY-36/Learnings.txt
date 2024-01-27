@@ -1,0 +1,18 @@
+1. iExpense: Introduction.
+ We’re going to need to learn how to:
+- Present and dismiss a second screen of data.
+- Delete rows from a list
+- Save and load user data
+…and more.
+
+2. Using @State with classes.
+
+3. Sharing SwiftUI state with @Observable.
+
+4. Showing and hiding views.
+
+5. Deleting items using onDelete().
+
+6. Storing user settings with UserDefaults.
+
+7. Archiving Swift objects with Codable.
