@@ -1,0 +1,11 @@
+1. Moonshot: Introduction.
+
+2. Resizing images to fit the available space.
+
+3. How ScrollView lets us work with scrolling data.
+
+4. Pushing new views onto the stack using NavigationLink.
+
+5. Working with hierarchical Codable data.
+
+6. How to lay out views in a scrolling grid.
