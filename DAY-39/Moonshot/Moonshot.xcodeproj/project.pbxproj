@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F6F78722B6BFF7E00180751 /* PracticeView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6F78712B6BFF7E00180751 /* PracticeView2.swift */; };
+		5F6F78742B6C318900180751 /* PracticeView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6F78732B6C318900180751 /* PracticeView3.swift */; };
 		5FA945E92B6AD17D00FFDE48 /* MoonshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA945E82B6AD17D00FFDE48 /* MoonshotApp.swift */; };
 		5FA945EB2B6AD17D00FFDE48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA945EA2B6AD17D00FFDE48 /* ContentView.swift */; };
 		5FA945ED2B6AD17F00FFDE48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FA945EC2B6AD17F00FFDE48 /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F6F78712B6BFF7E00180751 /* PracticeView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView2.swift; sourceTree = "<group>"; };
+		5F6F78732B6C318900180751 /* PracticeView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView3.swift; sourceTree = "<group>"; };
 		5FA945E52B6AD17D00FFDE48 /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FA945E82B6AD17D00FFDE48 /* MoonshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotApp.swift; sourceTree = "<group>"; };
 		5FA945EA2B6AD17D00FFDE48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				5FA945F62B6AD1AE00FFDE48 /* PracticeView1.swift */,
+				5F6F78712B6BFF7E00180751 /* PracticeView2.swift */,
+				5F6F78732B6C318900180751 /* PracticeView3.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -148,8 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F6F78742B6C318900180751 /* PracticeView3.swift in Sources */,
 				5FA945EB2B6AD17D00FFDE48 /* ContentView.swift in Sources */,
 				5FA945E92B6AD17D00FFDE48 /* MoonshotApp.swift in Sources */,
+				5F6F78722B6BFF7E00180751 /* PracticeView2.swift in Sources */,
 				5FA945F72B6AD1AE00FFDE48 /* PracticeView1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
