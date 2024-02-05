@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F3A6AED2B71707000B25F06 /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3A6AEC2B71707000B25F06 /* Color-Theme.swift */; };
 		5F48AB282B6D597400FA5787 /* MoonshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F48AB272B6D597400FA5787 /* MoonshotApp.swift */; };
 		5F48AB2C2B6D597600FA5787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F48AB2B2B6D597600FA5787 /* Assets.xcassets */; };
 		5F48AB2F2B6D597600FA5787 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F48AB2E2B6D597600FA5787 /* Preview Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F3A6AEC2B71707000B25F06 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
 		5F48AB242B6D597400FA5787 /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F48AB272B6D597400FA5787 /* MoonshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotApp.swift; sourceTree = "<group>"; };
 		5F48AB2B2B6D597600FA5787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				5FED12F82B6EC10F00A730B0 /* Astronaut.swift */,
 				5FED12F52B6EC03100A730B0 /* Bundle-Decodable.swift */,
+				5F3A6AEC2B71707000B25F06 /* Color-Theme.swift */,
 				5FED12FD2B6ECAB100A730B0 /* Mission.swift */,
 			);
 			path = Models;
@@ -187,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FED12FB2B6EC31600A730B0 /* ContentView.swift in Sources */,
+				5F3A6AED2B71707000B25F06 /* Color-Theme.swift in Sources */,
 				5FED12F62B6EC03100A730B0 /* Bundle-Decodable.swift in Sources */,
 				5F48AB282B6D597400FA5787 /* MoonshotApp.swift in Sources */,
 				5FED12FE2B6ECAB100A730B0 /* Mission.swift in Sources */,
