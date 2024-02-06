@@ -18,6 +18,7 @@
 		5FED12F92B6EC10F00A730B0 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FED12F82B6EC10F00A730B0 /* Astronaut.swift */; };
 		5FED12FB2B6EC31600A730B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FED12FA2B6EC31600A730B0 /* ContentView.swift */; };
 		5FED12FE2B6ECAB100A730B0 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FED12FD2B6ECAB100A730B0 /* Mission.swift */; };
+		5FF151242B72908B00CF972F /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF151232B72908B00CF972F /* AstronautView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		5FED12F82B6EC10F00A730B0 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
 		5FED12FA2B6EC31600A730B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5FED12FD2B6ECAB100A730B0 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		5FF151232B72908B00CF972F /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		5F48AB352B6D598F00FA5787 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5FF151232B72908B00CF972F /* AstronautView.swift */,
 				5FED12FA2B6EC31600A730B0 /* ContentView.swift */,
 				5F3A6AEE2B71771C00B25F06 /* MissionView.swift */,
 			);
@@ -194,6 +197,7 @@
 			files = (
 				5F3A6AEF2B71771C00B25F06 /* MissionView.swift in Sources */,
 				5FED12FB2B6EC31600A730B0 /* ContentView.swift in Sources */,
+				5FF151242B72908B00CF972F /* AstronautView.swift in Sources */,
 				5F3A6AED2B71707000B25F06 /* Color-Theme.swift in Sources */,
 				5FED12F62B6EC03100A730B0 /* Bundle-Decodable.swift in Sources */,
 				5F48AB282B6D597400FA5787 /* MoonshotApp.swift in Sources */,
