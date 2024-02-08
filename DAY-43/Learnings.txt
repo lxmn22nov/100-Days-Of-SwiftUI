@@ -1,0 +1,5 @@
+- Navigation: Introduction.
+
+- The problem with a simple NavigationLink.
+
+- Handling navigation the smart way with navigationDestination().
