@@ -25,7 +25,7 @@ struct ContentView1: View {
                 Text("You selected \(selection)")
             }
             .navigationDestination(for: Student.self) { student in
-                Text("You selected \(student.name)")
+                Text("You selected \(student.name )")
             }
         }
     }
