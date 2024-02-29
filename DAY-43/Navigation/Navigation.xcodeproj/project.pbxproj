@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F1DF5262B9024D200902FFE /* ContentView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1DF5252B9024D200902FFE /* ContentView5.swift */; };
 		5FA867F92B900A2900C83E49 /* ContentView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA867F82B900A2900C83E49 /* ContentView4.swift */; };
 		5FC9B6292B7AA9FE009001BF /* ContentView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC9B6282B7AA9FE009001BF /* ContentView3.swift */; };
 		5FCDED812B7A07D6006E0108 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCDED802B7A07D6006E0108 /* ContentView2.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F1DF5252B9024D200902FFE /* ContentView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView5.swift; sourceTree = "<group>"; };
 		5FA867F82B900A2900C83E49 /* ContentView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView4.swift; sourceTree = "<group>"; };
 		5FC9B6282B7AA9FE009001BF /* ContentView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView3.swift; sourceTree = "<group>"; };
 		5FCDED802B7A07D6006E0108 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				5FCDED802B7A07D6006E0108 /* ContentView2.swift */,
 				5FC9B6282B7AA9FE009001BF /* ContentView3.swift */,
 				5FA867F82B900A2900C83E49 /* ContentView4.swift */,
+				5F1DF5252B9024D200902FFE /* ContentView5.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				5FD16A6A2B7581580058A002 /* ContentView.swift in Sources */,
 				5FA867F92B900A2900C83E49 /* ContentView4.swift in Sources */,
 				5FC9B6292B7AA9FE009001BF /* ContentView3.swift in Sources */,
+				5F1DF5262B9024D200902FFE /* ContentView5.swift in Sources */,
 				5FD16A682B7581580058A002 /* NavigationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
