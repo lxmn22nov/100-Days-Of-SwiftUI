@@ -18,6 +18,7 @@
 		5FF258642B95C43100E4BB05 /* ContentView05.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF258632B95C43100E4BB05 /* ContentView05.swift */; };
 		5FF258672B95C77B00E4BB05 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF258662B95C77B00E4BB05 /* Order.swift */; };
 		5FF258692B95CDED00E4BB05 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF258682B95CDED00E4BB05 /* AddressView.swift */; };
+		5FF2586B2B95D11700E4BB05 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF2586A2B95D11700E4BB05 /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		5FF258632B95C43100E4BB05 /* ContentView05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView05.swift; sourceTree = "<group>"; };
 		5FF258662B95C77B00E4BB05 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		5FF258682B95CDED00E4BB05 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		5FF2586A2B95D11700E4BB05 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				5FF258612B95BB3600E4BB05 /* ContentView04.swift */,
 				5FF258632B95C43100E4BB05 /* ContentView05.swift */,
 				5FF258682B95CDED00E4BB05 /* AddressView.swift */,
+				5FF2586A2B95D11700E4BB05 /* CheckoutView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			files = (
 				5FF258622B95BB3600E4BB05 /* ContentView04.swift in Sources */,
 				5FF258592B95971600E4BB05 /* ContentView01.swift in Sources */,
+				5FF2586B2B95D11700E4BB05 /* CheckoutView.swift in Sources */,
 				5FF258672B95C77B00E4BB05 /* Order.swift in Sources */,
 				5FF2585D2B95A68200E4BB05 /* ContentView03.swift in Sources */,
 				5FC268962B94C61400AF58EC /* ContentView.swift in Sources */,
