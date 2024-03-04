@@ -1,0 +1,5 @@
+- Adding haptic effects.
+
+- Adding Codable conformance to an @Observable class.
+
+- Taking basic order details.

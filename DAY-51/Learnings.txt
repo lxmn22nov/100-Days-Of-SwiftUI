@@ -1,0 +1,5 @@
+- Checking for a valid address.
+
+- Preparing for checkout.
+
+- Sending and receiving orders over the internet.
