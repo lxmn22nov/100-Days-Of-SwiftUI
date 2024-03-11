@@ -13,6 +13,7 @@
 		5FDFECAC2B9EDB930024D42F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FDFECAB2B9EDB930024D42F /* Preview Assets.xcassets */; };
 		5FDFECB72B9EDD830024D42F /* ContentView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFECB62B9EDD830024D42F /* ContentView1.swift */; };
 		5FDFECBA2B9EEC4C0024D42F /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFECB92B9EEC4C0024D42F /* ContentView2.swift */; };
+		5FDFECBC2B9EFE510024D42F /* ContentView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFECBB2B9EFE510024D42F /* ContentView3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		5FDFECAB2B9EDB930024D42F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5FDFECB62B9EDD830024D42F /* ContentView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView1.swift; sourceTree = "<group>"; };
 		5FDFECB92B9EEC4C0024D42F /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		5FDFECBB2B9EFE510024D42F /* ContentView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				5FDFECB62B9EDD830024D42F /* ContentView1.swift */,
 				5FDFECB92B9EEC4C0024D42F /* ContentView2.swift */,
+				5FDFECBB2B9EFE510024D42F /* ContentView3.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				5FDFECB72B9EDD830024D42F /* ContentView1.swift in Sources */,
 				5FDFECBA2B9EEC4C0024D42F /* ContentView2.swift in Sources */,
 				5FDFECA72B9EDB920024D42F /* ContentView.swift in Sources */,
+				5FDFECBC2B9EFE510024D42F /* ContentView3.swift in Sources */,
 				5FDFECA52B9EDB920024D42F /* BookwormApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
