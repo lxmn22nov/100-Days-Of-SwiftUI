@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FC9E6BC2BA006780035E565 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC9E6BB2BA006780035E565 /* Student.swift */; };
 		5FDFECA52B9EDB920024D42F /* BookwormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFECA42B9EDB920024D42F /* BookwormApp.swift */; };
 		5FDFECA72B9EDB920024D42F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDFECA62B9EDB920024D42F /* ContentView.swift */; };
 		5FDFECA92B9EDB930024D42F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FDFECA82B9EDB930024D42F /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5FC9E6BB2BA006780035E565 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		5FDFECA12B9EDB920024D42F /* Bookworm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookworm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FDFECA42B9EDB920024D42F /* BookwormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookwormApp.swift; sourceTree = "<group>"; };
 		5FDFECA62B9EDB920024D42F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5FC9E6BA2BA006620035E565 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5FC9E6BB2BA006780035E565 /* Student.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		5FDFEC982B9EDB920024D42F = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +67,7 @@
 		5FDFECA32B9EDB920024D42F /* Bookworm */ = {
 			isa = PBXGroup;
 			children = (
+				5FC9E6BA2BA006620035E565 /* Model */,
 				5FDFECB32B9EDBD40024D42F /* App */,
 				5FDFECB22B9EDBC00024D42F /* Assets */,
 				5FDFECB42B9EDBE40024D42F /* Root */,
@@ -179,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FDFECB72B9EDD830024D42F /* ContentView1.swift in Sources */,
+				5FC9E6BC2BA006780035E565 /* Student.swift in Sources */,
 				5FDFECBA2B9EEC4C0024D42F /* ContentView2.swift in Sources */,
 				5FDFECA72B9EDB920024D42F /* ContentView.swift in Sources */,
 				5FDFECBC2B9EFE510024D42F /* ContentView3.swift in Sources */,
