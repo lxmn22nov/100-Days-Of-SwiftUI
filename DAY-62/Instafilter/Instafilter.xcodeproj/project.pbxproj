@@ -15,6 +15,7 @@
 		5F24408A2C058F8C00428868 /* ContentView02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2440892C058F8C00428868 /* ContentView02.swift */; };
 		5F24408C2C05960300428868 /* ContentView03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F24408B2C05960300428868 /* ContentView03.swift */; };
 		5F24408E2C079C9600428868 /* ContentView04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F24408D2C079C9600428868 /* ContentView04.swift */; };
+		5F2440902C07A35600428868 /* ContentView05.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F24408F2C07A35600428868 /* ContentView05.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		5F2440892C058F8C00428868 /* ContentView02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView02.swift; sourceTree = "<group>"; };
 		5F24408B2C05960300428868 /* ContentView03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView03.swift; sourceTree = "<group>"; };
 		5F24408D2C079C9600428868 /* ContentView04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView04.swift; sourceTree = "<group>"; };
+		5F24408F2C07A35600428868 /* ContentView05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView05.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				5F2440892C058F8C00428868 /* ContentView02.swift */,
 				5F24408B2C05960300428868 /* ContentView03.swift */,
 				5F24408D2C079C9600428868 /* ContentView04.swift */,
+				5F24408F2C07A35600428868 /* ContentView05.swift */,
 			);
 			path = VIews;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				5F24408C2C05960300428868 /* ContentView03.swift in Sources */,
 				5F24407A2C05843000428868 /* ContentView.swift in Sources */,
 				5F24408A2C058F8C00428868 /* ContentView02.swift in Sources */,
+				5F2440902C07A35600428868 /* ContentView05.swift in Sources */,
 				5F2440782C05843000428868 /* InstafilterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
