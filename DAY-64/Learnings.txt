@@ -1,0 +1,5 @@
+- Loading photos from the user's photo library.
+
+- How to let the user share content with ShareLink.
+
+- How to ask the user to leave an App Store review.
