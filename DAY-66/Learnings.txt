@@ -1,0 +1,3 @@
+- Customizing our filter using confirmationDialog().
+
+- Sharing an image using ShareLink.
