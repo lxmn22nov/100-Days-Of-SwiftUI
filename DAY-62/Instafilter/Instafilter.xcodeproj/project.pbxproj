@@ -67,7 +67,6 @@
 			children = (
 				5F2440882C0584F900428868 /* App */,
 				5F2440852C0584CA00428868 /* VIews */,
-				5F2440792C05843000428868 /* ContentView.swift */,
 				5F24407B2C05843200428868 /* Assets.xcassets */,
 				5F24407D2C05843200428868 /* Preview Content */,
 			);
@@ -85,6 +84,7 @@
 		5F2440852C0584CA00428868 /* VIews */ = {
 			isa = PBXGroup;
 			children = (
+				5F2440792C05843000428868 /* ContentView.swift */,
 				5F2440862C0584F000428868 /* ContentView01.swift */,
 				5F2440892C058F8C00428868 /* ContentView02.swift */,
 				5F24408B2C05960300428868 /* ContentView03.swift */,
