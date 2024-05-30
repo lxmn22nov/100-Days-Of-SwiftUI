@@ -16,6 +16,8 @@
 		5F24408C2C05960300428868 /* ContentView03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F24408B2C05960300428868 /* ContentView03.swift */; };
 		5F24408E2C079C9600428868 /* ContentView04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F24408D2C079C9600428868 /* ContentView04.swift */; };
 		5F2440902C07A35600428868 /* ContentView05.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F24408F2C07A35600428868 /* ContentView05.swift */; };
+		5F2440922C07B85A00428868 /* ContentView06.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2440912C07B85A00428868 /* ContentView06.swift */; };
+		5F2440942C08029D00428868 /* ContentView07.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2440932C08029C00428868 /* ContentView07.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		5F24408B2C05960300428868 /* ContentView03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView03.swift; sourceTree = "<group>"; };
 		5F24408D2C079C9600428868 /* ContentView04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView04.swift; sourceTree = "<group>"; };
 		5F24408F2C07A35600428868 /* ContentView05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView05.swift; sourceTree = "<group>"; };
+		5F2440912C07B85A00428868 /* ContentView06.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView06.swift; sourceTree = "<group>"; };
+		5F2440932C08029C00428868 /* ContentView07.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView07.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				5F24408B2C05960300428868 /* ContentView03.swift */,
 				5F24408D2C079C9600428868 /* ContentView04.swift */,
 				5F24408F2C07A35600428868 /* ContentView05.swift */,
+				5F2440912C07B85A00428868 /* ContentView06.swift */,
+				5F2440932C08029C00428868 /* ContentView07.swift */,
 			);
 			path = VIews;
 			sourceTree = "<group>";
@@ -170,6 +176,8 @@
 			files = (
 				5F24408E2C079C9600428868 /* ContentView04.swift in Sources */,
 				5F2440872C0584F000428868 /* ContentView01.swift in Sources */,
+				5F2440942C08029D00428868 /* ContentView07.swift in Sources */,
+				5F2440922C07B85A00428868 /* ContentView06.swift in Sources */,
 				5F24408C2C05960300428868 /* ContentView03.swift in Sources */,
 				5F24407A2C05843000428868 /* ContentView.swift in Sources */,
 				5F24408A2C058F8C00428868 /* ContentView02.swift in Sources */,
