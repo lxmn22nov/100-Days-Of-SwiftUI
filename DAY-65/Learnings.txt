@@ -1,0 +1,5 @@
+- Building our basic UI.
+
+- Importing an image into SwiftUI using PhotosPicker.
+
+- Basic Image filtering using Core Image.
