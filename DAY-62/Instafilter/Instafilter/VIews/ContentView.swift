@@ -18,8 +18,11 @@ struct ContentView: View {
     @State private var processedImage: Image?
     @State private var filterIntensity = 0.5
     @State private var selectedItem: PhotosPickerItem?
+    
     @State private var currentFilter = CIFilter.sepiaTone()
     let context = CIContext()
+    
+    @State private var showingFilters = false
      
     var body: some View {
         NavigationStack {
@@ -57,11 +60,14 @@ struct ContentView: View {
             }
             .padding([.horizontal, .bottom])
             .navigationTitle("InstaFilter")
+            .confirmationDialog("Select a filter", isPresented: $showingFilters) {
+                // dialog here
+            }
         }
     }
     
     func changeFilter() {
-        
+        showingFilters = true
     }
     
     func loadImage() {
