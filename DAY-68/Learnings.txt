@@ -1,4 +1,7 @@
 - Bucket List: Introduction
+	* We're going to build an app that lets the user build a private list of places on the 		map that they intend to visit one day, add a description for that place, look up 		interesting places that are nearby, and save it all to the iOS storage for later.
+
+	* Pivotal skills which we use forms, sheets, Codable & URLSession, how to embed maps in 	a SwiftUI app, how to store private data safely so that only an authenticated user can 		access it, how to load & save data outside of UserDefaults and more.
 
 - Adding conformance to Comparable for custom types.
 
